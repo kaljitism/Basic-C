@@ -93,6 +93,9 @@ int main() {
   X++;
   Y++;
 
+  // Augment Operators
+  Y *= 3;
+
   float z = X / (float) Y;
   printf("%0.2f\n", z);
 
