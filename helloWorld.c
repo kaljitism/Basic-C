@@ -59,5 +59,24 @@ int main() {
   printf("%llu\n", m);   // unsigned long long int
   printf("Data ==> Memory Address %c - %p,\n %s - %p,\n %f - %p,\n %lf - %p,\n %d - %p,\n %c - %p,\n %d - %p,\n %d - %p,\n %d - %p,\n %d - %p,\n %u - %p,\n %lld - %p,\n %lu - %p\n", a, &a, b, &b, c, &c, d, &d, e, &e, f, &f, g, &g, h, &h, i, &i, j, &j, k, &k, l, &l, m, &m);
 
+  // Format Specifiers - defines and formats a type of data to be displayed. 
+  
+  // %c = character
+  // %s = string (array of characters) 
+  // %f = float
+  // %lf = double
+  // %d = integer
+  // %.1 => 1 = decimal precision
+  // %1 = minimum field width
+  // %- = left align
+  
+  float item1 = 5.75;
+  float item2 = 10.00;
+  float item3 = 100.99;
+
+  printf("Item 1: $%7.2f\n", item1);
+  printf("Item 2: $%7.0f\n", item2);
+  printf("Item 3: $%7.2f\n", item3);
+
   return 0;
 }
