@@ -78,5 +78,23 @@ int main() {
   printf("Item 2: $%7.0f\n", item2);
   printf("Item 3: $%7.2f\n", item3);
 
+  // Constants 
+  
+  const float PI = 3.14159;
+  printf("%f\n", PI);
+
+  // Arithmetic Operators
+  // +, -, *, /, %, ++, --
+
+  int X = 5;
+  int Y = 2;
+
+  X++;
+  X++;
+  Y++;
+
+  float z = X / (float) Y;
+  printf("%0.2f\n", z);
+
   return 0;
 }
