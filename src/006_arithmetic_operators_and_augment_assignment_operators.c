@@ -17,4 +17,6 @@ int main() {
 
     float z = (float) X / (float) Y;
     printf("%0.2f\n", z);
+
+    return 0;
 }
