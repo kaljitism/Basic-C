@@ -16,5 +16,5 @@ int main() {
   // int result = strncmp(string1, string2, 1);  // compare n characters.
 
   // printf("%s\n", string1);
-  printf("%d\n", result);
+  // printf("%d\n", result);
 }
