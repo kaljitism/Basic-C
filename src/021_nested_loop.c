@@ -3,8 +3,6 @@
 
 int main() {
   int rows;
-  int columns;
-  char symbol;
 
   printf("Enter number of rows: ");
   scanf("%d", &rows);  
@@ -15,4 +13,6 @@ int main() {
     }
     printf("\n");
   }
+
+  return 0;
 }
