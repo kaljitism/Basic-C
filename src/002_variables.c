@@ -16,4 +16,6 @@ int main() {
     printf("Hello %s\n", name);
     printf("You are %d years old\n", age);
     printf("You got %c in test\n", grade);
+
+    return 0;
 }
